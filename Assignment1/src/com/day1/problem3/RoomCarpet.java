@@ -10,7 +10,7 @@ public class RoomCarpet extends RoomDimension {
 	}
 	public void printTotalPrice()
 	{
-		System.out.println("The Total Carpet Cost is "+totalPrice);
+		System.out.println("The Total Carpet Cost in USD is "+totalPrice);
 	}
 	
 	

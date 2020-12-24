@@ -13,6 +13,8 @@ public class MainCarpetCost {
 		int price = input.nextInt();
 		RoomCarpet object = new RoomCarpet(length, width, price);
 		object.printTotalPrice();
+		RoomCarpetIndia objectIndia = new RoomCarpetIndia(length, width, price);
+		objectIndia.printTotalPrice();
 		}
 
 }
